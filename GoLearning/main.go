@@ -83,6 +83,35 @@ for i := 0;i<5;i++{
 }
 
 
+color := []string{"Red","Blue","Green"}
+fruits := []string{"Apple","Orange","Grapes"}
+
+
+for i := 0;i <len(color);i++{
+
+	for j := 0;j < len(fruits);j++{
+		fmt.Println(color[i]," ",fruits[j])
+	}
+}
+
+
+num6 := []int{1,2,3,4,5}
+
+for i,val := range num6 {
+	fmt.Println(i," ",val)
+}
+
+num7 := []int{5,4,3,2,1}
+	for _, val := range num7 {
+		fmt.Println(val)
+	}
+
+
+
+
+
+
+
 
 
 
@@ -92,6 +121,7 @@ for i := 0;i<5;i++{
 
 
     }
+
 
 
 
