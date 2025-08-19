@@ -9,7 +9,38 @@ func Test() {
 	fmt.Println(x <= 5 &&  x < 10) 
   }
 
+  func sum(num8 int, num9 int) int {
+	num10 := num8 + num9
+	return num10
+}
+func myfunc(x int , y string)(sum int,txt string ){
+	sum = x + 6
+	txt = "hii " + y
+	return
+}
+
+
+func rec(x int)(int) {
+		fmt.Println("Recursion")
+
+		if x == 10 {
+			return 0
+		}
+
+		fmt.Println(x)
+		return (rec(x+1))
+
+	}
+
+
+
 func main(){
+
+	rec(1)
+
+	fmt.Println(sum(5, 7))
+
+	fmt.Println(myfunc(4, "Mr"))
 
 	fmt.Println("We start Go today our Objective is to become capabale of making api till the end of this week:)")
 
@@ -105,6 +136,19 @@ num7 := []int{5,4,3,2,1}
 	for _, val := range num7 {
 		fmt.Println(val)
 	}
+
+
+	
+
+	
+	 
+
+
+	
+
+
+
+
 
 
 
