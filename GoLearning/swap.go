@@ -2,6 +2,11 @@ package main
 
 import "fmt"
 
+
+func test(){
+	fmt.Print
+}
+
 func swapOfTONumbers(num1 int,num2 int){
 
 	fmt.Println("Before Swaping num1:",num1)
