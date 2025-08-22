@@ -17,6 +17,7 @@ func main() {
     fmt.Println("After concatenation:", str)
 
     //imutable
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	
@@ -26,6 +27,9 @@ func main() {
 =======
 
 >>>>>>> Stashed changes
+=======
+
+>>>>>>> ak/feature
     imu := str
     imu += " Great!"
     fmt.Println("Original string:", str)
@@ -35,6 +39,7 @@ func main() {
 multile line string \n`
     fmt.Println("Raw string:", raw)
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
     escape := "Hello, \"world\"!"
@@ -43,4 +48,6 @@ multile line string \n`
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> ak/feature
 }
