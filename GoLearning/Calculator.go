@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"GoLearning/pkg/calcu" 
+	"Go/GoLearning/pkg/calcu" 
 )
 
 func main() {
 
-fmt.Println(pkg.add(2,3))
+fmt.Println(calcu.add(2,3))
 
 }
