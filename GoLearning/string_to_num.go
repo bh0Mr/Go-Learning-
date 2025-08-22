@@ -1,13 +1,11 @@
 package main
+
 import (
 	"fmt"
 	"strconv"
 )
 
-
-
-func main(){
-
+func main() {
 
 	num := 1223
 
@@ -16,7 +14,5 @@ func main(){
 	fmt.Println(str1)
 
 	fmt.Print(strconv.Itoa(num))
-	
-
 
 }
