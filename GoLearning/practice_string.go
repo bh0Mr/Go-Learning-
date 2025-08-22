@@ -1,0 +1,30 @@
+package main
+
+import "fmt"
+
+func main() {
+
+
+    str := "hello, world"
+
+    fmt.Println("Length of string:", len(str))
+    fmt.Println("First byte:", str[0])        
+
+    fmt.Println("Substring:", str[0:5])
+    fmt.Println("Substring:", str[7:])
+
+    str += ", Golang!"
+    fmt.Println("After concatenation:", str)
+
+    //imutable
+
+    imu := str
+    imu += " Great!"
+    fmt.Println("Original string:", str)
+    fmt.Println("New string:", imu)
+
+    raw := `This is just a Practice for go language 
+multile line string \n`
+    fmt.Println("Raw string:", raw)
+
+}
