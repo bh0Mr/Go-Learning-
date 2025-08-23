@@ -7,6 +7,13 @@ import (
 
 func main() {
 
+	pracString()
+
+}
+
+func pracString(){
+
+
 	num := 1223
 
 	str1 := fmt.Sprint(num)

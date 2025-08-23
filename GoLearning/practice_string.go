@@ -17,19 +17,7 @@ func main() {
     fmt.Println("After concatenation:", str)
 
     //imutable
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-	
-=======
 
->>>>>>> Stashed changes
-=======
-
->>>>>>> Stashed changes
-=======
-
->>>>>>> ak/feature
     imu := str
     imu += " Great!"
     fmt.Println("Original string:", str)
